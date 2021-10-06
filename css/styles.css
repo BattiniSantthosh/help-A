@@ -1,0 +1,22 @@
+
+.container{
+    max-width: 1024px;
+}.header{
+    background-color: aqua;
+}
+
+.top_links{
+    height: 25px;
+    background-color: #ccc;
+}
+.main_menu{
+    height: 45px;
+    background-color: #ddd; 
+}
+.banner{
+    height: 350px;
+    background-color: #eee;
+}
+.cards{
+    margin-top: -50px;
+}
