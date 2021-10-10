@@ -49,13 +49,15 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #36c7cf
+    color: #36c7cf;
 }
 
 .banner {
     padding-top: 150px;
     background-color: #cdd5da;
     padding-bottom: 100px;
+	background: url(../images/cloud.jpg) no-repeat 0 0;
+    background-size: cover;
 }
 
 .banner-header {
@@ -168,7 +170,9 @@ section.cards {
     margin-top: 1rem;
     padding: 2rem 0rem;
     color: white;
-    background: url(../images/school_bg.jpeg);
+    background: url(../images/school_bg.jpeg) no-repeat 0 0,linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .donate-section h3 {
@@ -264,7 +268,7 @@ section.cards {
 .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100px;
+    /*height: 100px;*/
     object-fit: cover;
 }
 
@@ -273,6 +277,12 @@ section.cards {
     width: 100%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 0 0 6rem 0;
+}
+
+.swiper-slide .swiper-slide-card-doctors {
+    height: 300px;
+    width: 100%;
+	background-size:contain;
 }
 
 .swiper-slide .swiper-slide-card:hover {
@@ -311,3 +321,246 @@ section.cards {
     background-color: #61c292;
     color: white;
 }
+
+.swiper-button-disabled:hover{
+    background-color: rgba(250, 120, 120, 0.02) !important;
+    color: #ccc;
+}
+
+
+.register-section {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+    color: white;
+    background: url(../images/nurses_bg.jpg) no-repeat 0 0,linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.register-section .rounded-top {
+    border-top-left-radius: 1rem!important;
+    border-top-right-radius: 1rem!important;
+}
+
+.register-section .rounded-left {
+    border-bottom-left-radius: 1rem!important;
+    border-top-left-radius: 1rem!important;
+}
+
+.register-section .cardreg {
+       border-radius: 3rem;
+    border: 0px !important;
+    background-color: #24b187;
+    margin-bottom: 1rem;
+}
+
+
+.register-section .icon{
+     color: #36c7cf;
+}
+
+.register-section h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.register-section p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.register-section .cources-btn {
+    border-radius: 60px;
+    background: #efc84c;
+    border-color: #efc84c;
+    font-weight: bold;
+    font-size: 1.0rem;
+    padding: 0.5rem 0rem;
+}
+
+.register-section .cards
+{
+	text-align:center;
+	color:#000;
+}
+
+/*.register-section .cards>p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 1rem;
+}*/
+
+.p_bold
+{
+	font-weight: bold;
+    text-transform: uppercase;
+    
+    margin-top: 1rem;
+}
+
+.register-section .cardreg
+{
+	    background-color: #fff;
+}
+
+.register-section .cources-btn {
+    border-radius: 60px;
+    background: #61c292;
+    border-color: #61c292;
+}
+
+
+.stories{
+    margin-top: 1rem;
+    text-align: left;
+
+}
+.stories h3{
+    font-weight: bold;
+    text-align: center;
+}
+.stories .story-card{
+    padding: 0.75rem;
+    border-radius: 0 0 6rem 0;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.story-card strong {
+    font-size: 0.9rem;
+}
+
+.stories .swiper-story-slide{
+    margin-top: 0.75rem;
+    height: auto;
+    width: 100%;
+}
+
+.story-card p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #b6b6b8;
+}
+.story-card .thumb{
+    width: 50px;
+    height: auto;
+}   
+.mySwiper3{
+    height: 360px;
+}
+
+.learners{
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+    background: url(../images/doctor2.jpg) no-repeat 0 0, #edf1f5;
+    background-size: 40% auto;
+}
+.learners .sub-title{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.learners .sub-title p{
+    color: #b6b6b8;
+}
+
+
+
+.partner-with-us {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+}
+
+.partner-with-us .rounded-top {
+    border-top-left-radius: 1rem!important;
+    border-top-right-radius: 1rem!important;
+}
+
+.partner-with-us .rounded-left {
+    border-bottom-left-radius: 1rem!important;
+    border-top-left-radius: 1rem!important;
+}
+
+.partner-with-us .cardreg {
+       border-radius: 3rem;
+    border: 0px !important;
+    margin-bottom: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.partner-with-us .icon{
+     color: #36c7cf;
+}
+
+.partner-with-us h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.partner-with-us p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.partner-with-us .cources-btn {
+    border-radius: 60px;
+    background: #61c292;
+    border-color: #61c292;
+    font-weight: bold;
+    font-size: 1.0rem;
+    padding: 0.5rem 0rem;
+}
+
+.partner-with-us .cards
+{
+	text-align:center;
+	color:#000;
+}
+
+.key-partners{
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+}
+
+.key-partners h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-footer{
+    padding: 2rem;
+    background: #edf1f5;
+}
+.main-footer h4{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.main-footer ul li{
+    width: 50%;
+    float: left;
+}
+.main-footer img{
+    width: 150px;
+}
+.footer{
+    background: #0b1836;
+    padding: 0.75rem;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .learners{
+        background:  #edf1f5;
+    }
+    .navbar-collapse{
+        background: #ccc;
+        padding: 1rem;
+        margin-top: 5rem;
+        border-radius: 1rem;
+    }
+}
+
